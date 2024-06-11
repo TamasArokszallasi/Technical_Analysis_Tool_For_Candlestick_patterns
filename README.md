@@ -1,17 +1,17 @@
 # HUFEUR_TA
 
-The aim of this project is to create a code which can do Trend Analysis on various FX Rate pairs by focusing on the weekly japanese candlestick patterns and in general, the price movements of a pair. 
+The aim of this project is to create a code which can do Trend Analysis on various FX Rate pairs by focusing on the **weekly** japanese candlestick patterns and in general, the price movements of a pair. 
 The sole purpose of this is to provide a differentiation for my VAR analysis on the same dependent variable which is the HUF/EUR.
 
-In theory the plan for this project is the following:
+What we need before start coding?
 
-
--Dataset of FX Rates in weekly time period from 2006.01.01 until 2023.06.31
-  **The following pairs are needed : <br>HUF/USD	<br>CZK/USD	<br>PLN/USD	<br>DKK/USD	<br>SEK/USD	<br>CHF/USD	<br>EUR/USD**  . <br>These are the currencies of EU member states that are of course not within the Eurozone.
+**1) DATA COLLECTION**
+<br> Database of FX Rates in weekly time period from 2006.01.01 until 2023.06.31
+**The following pairs are needed : <br>HUF/USD	<br>CZK/USD	<br>PLN/USD	<br>DKK/USD	<br>SEK/USD	<br>CHF/USD	<br>EUR/USD**  . <br>These are the currencies of EU member states that are of course not within the Eurozone.
   
--After collecting the data, i should decide in what sort of analytics pattern will i look for. 
+**2) DECIDING ANALYTICAL METHODS;   INDICATORS&PATTERNS**
+We need the following **indicators:**
 
-In theory, these are the most important indicators of Trend Analysis:
 <br>**Moving Averages (SMA, EMA):** Identify trends and potential reversal points.
 <br>**MACD:** Signal changes in the strength, direction, momentum, and duration of a trend.
 <br>**RSI:** Identify overbought or oversold conditions.
@@ -20,9 +20,7 @@ In theory, these are the most important indicators of Trend Analysis:
 <br>**OBV:** Use volume to predict price changes.
 <br>**Fibonacci Retracement:** Identify potential support and resistance levels.
 
-With the indicators, i want to also check its occurence and the outcome of the bullsih/bearish indications. 
-
-To give an importance for the japanese candlestick patterns, i would like to highlight the most famous japanese candlestick patterns which are:
+**Japanese candlestick patterns:**
 <br>**Doji** : Indicates indecision in the market. The opening and closing prices are virtually equal.
 <br>**Hammer:** Bullish reversal pattern that occurs at the bottom of a downtrend.
 <br>**Hanging Man:** Bearish reversal pattern that occurs at the top of an uptrend.
@@ -35,7 +33,21 @@ To give an importance for the japanese candlestick patterns, i would like to hig
 <br>**Double Top:** A bearish reversal pattern that forms after an uptrend.
 <br>**Double Bottom:** A bullish reversal pattern that forms after a downtrend.
 
--So I have to go through the chart with the weekly candles and identify when does these patterns occour and create a different alert for all occurence.
-It is very much important that the price movements before and after the pattern should have to be highlighted.
+**3) METHODOLOGY**
 
--I also would like to create a closeness variable but with the candlesticks.
+So I have to go through the chart with the weekly candles and identify when does these patterns occour and create a different alert for all occurence. Basically, each indicator and pattern if appear, by theory it should predict the price movement of the observed ticker.  Trend analysis is good also for a past analytics and also for forecasting, but economically it is out of question utterly useless to predict only by price.
+We need to use some pre-built libraries for this progress to make it easier to find patterns and indicator signs.
+The followign libraries are needed at first thought:
+-Pandas
+-Pandas_ta
+-TA_lib
+-MPLfinance (coloring individual candlesticks to highlight various patternsÖ
+-yfinance 
+
+**4) How i imagine the code should go (note for myself)**
+So the first target will be the HUF/EUR chart, not to complicate with other at first glance. I imagine the following:
+We create a table where there are 3 column. The first column will contain the name of the indicator or the pattern, the second column will show the number of occurence of the pattern or number of occurence of a bullish/bearish indicator. The third column should show the number of predicted movements became true. ALso now i think about i will definetiley need to store each and every occurence, to be able to visualise it and highlight when does that actually happened. THe question is how?
+
+
+
+I also would like to create a closeness variable but with considering the candlesticks and volume also, not the fx rate on its own.
