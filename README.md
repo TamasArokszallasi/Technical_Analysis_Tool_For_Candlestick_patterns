@@ -12,7 +12,7 @@ In theory the plan for this project is the following:
 -After collecting the data, i should decide in what sort of analytics pattern will i look for. 
 
 In theory, these are the most important indicators of Trend Analysis:
-**Moving Averages (SMA, EMA):** Identify trends and potential reversal points.
+**Moving Averages (SMA, EMA):** Identify trends and potential reversal points. /n
 **MACD:** Signal changes in the strength, direction, momentum, and duration of a trend.
 **RSI:** Identify overbought or oversold conditions.
 **Bollinger Bands:** Show volatility and potential reversal points.
