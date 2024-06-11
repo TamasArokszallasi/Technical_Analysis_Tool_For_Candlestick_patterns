@@ -7,18 +7,18 @@ In theory the plan for this project is the following:
 
 
 -Dataset of FX Rates in weekly time period from 2006.01.01 until 2023.06.31
-  **The following pairs are needed : HUF/USD	CZK/USD	PLN/USD	DKK/USD	SEK/USD	CHF/USD	EUR/USD**  . These are the currencies of EU member states that are of course not within the Eurozone.
+  **The following pairs are needed : <br>HUF/USD	<br>CZK/USD	<br>PLN/USD	<br>DKK/USD	<br>SEK/USD	<br>CHF/USD	<br>EUR/USD**  . <br>These are the currencies of EU member states that are of course not within the Eurozone.
   
 -After collecting the data, i should decide in what sort of analytics pattern will i look for. 
 
 In theory, these are the most important indicators of Trend Analysis:
-<br>**Moving Averages (SMA, EMA):** Identify trends and potential reversal points. /n
+<br>**Moving Averages (SMA, EMA):** Identify trends and potential reversal points.
 <br>**MACD:** Signal changes in the strength, direction, momentum, and duration of a trend.
-**RSI:** Identify overbought or oversold conditions.
-**Bollinger Bands:** Show volatility and potential reversal points.
-**ATR:** Measure volatility.
-**OBV:** Use volume to predict price changes.
-**Fibonacci Retracement:** Identify potential support and resistance levels.
+<br>**RSI:** Identify overbought or oversold conditions.
+<br>**Bollinger Bands:** Show volatility and potential reversal points.
+<br>**ATR:** Measure volatility.
+<br>**OBV:** Use volume to predict price changes.
+<br>**Fibonacci Retracement:** Identify potential support and resistance levels.
 
 With the indicators, i want to also check its occurence and the outcome of the bullsih/bearish indications. 
 
