@@ -1,7 +1,7 @@
 # HUFEUR_TA
 
-The aim of this project is to create a code which can do Trend Analysis on various FX Rate pairs by focusing on the weekly japanese candlestick patterns. 
-The sole purpose of this is to provide a differentiation for my VAR analysis on the same varaible which is the HUF/EUR.
+The aim of this project is to create a code which can do Trend Analysis on various FX Rate pairs by focusing on the weekly japanese candlestick patterns and in general, the price movements of a pair. 
+The sole purpose of this is to provide a differentiation for my VAR analysis on the same dependent variable which is the HUF/EUR.
 
 In theory the plan for this project is the following:
 
@@ -13,8 +13,11 @@ In theory the plan for this project is the following:
 
 In theory, these are the most important indicators of Trend Analysis:
 **Moving Averages (SMA, EMA):** Identify trends and potential reversal points.
+
 **MACD:** Signal changes in the strength, direction, momentum, and duration of a trend.
+
 **RSI:** Identify overbought or oversold conditions.
+
 **Bollinger Bands:** Show volatility and potential reversal points.
 **ATR:** Measure volatility.
 **OBV:** Use volume to predict price changes.
