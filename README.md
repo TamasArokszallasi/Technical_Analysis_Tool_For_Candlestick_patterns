@@ -13,11 +13,8 @@ In theory the plan for this project is the following:
 
 In theory, these are the most important indicators of Trend Analysis:
 **Moving Averages (SMA, EMA):** Identify trends and potential reversal points.
-
 **MACD:** Signal changes in the strength, direction, momentum, and duration of a trend.
-
 **RSI:** Identify overbought or oversold conditions.
-
 **Bollinger Bands:** Show volatility and potential reversal points.
 **ATR:** Measure volatility.
 **OBV:** Use volume to predict price changes.
