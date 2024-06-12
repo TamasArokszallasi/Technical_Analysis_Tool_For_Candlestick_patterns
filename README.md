@@ -48,6 +48,16 @@ The followign libraries are needed at first thought:
 So the first target will be the HUF/EUR chart, not to complicate with other at first glance. I imagine the following:
 We create a table where there are 3 column. The first column will contain the name of the indicator or the pattern, the second column will show the number of occurence of the pattern or number of occurence of a bullish/bearish indicator. The third column should show the number of predicted movements became true. ALso now i think about i will definetiley need to store each and every occurence, to be able to visualise it and highlight when does that actually happened. THe question is how?
 
+I want something like this as a output:
+
+| Type          | signal        | Name                | Occurence     |
+| ------------- | ------------- | -------------       | ------------- |
+| Indicator     | Bullish       | HAMMER              | 2022.01.02    |
+| Pattern       | Bearish       | Bollinger Bands     | 2017.01.02    |
+
+Example:
+1) going through the chart and look for a Bullish  Hammer candle, if find 1,  save it somewhere to a  dictionary and go further and check if there exists more or not. If the for loop is done, went through all the candles and find x amount of bullish hammers
+
 
 
 I also would like to create a closeness variable but with considering the candlesticks and volume also, not the fx rate on its own.
