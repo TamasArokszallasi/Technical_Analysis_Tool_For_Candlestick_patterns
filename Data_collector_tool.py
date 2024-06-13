@@ -1,3 +1,5 @@
+#By using this code, it is easy to download any kind of stock or fx data in the world by using the yfinance and pandas libraries. Very useful and easy to use.
+
 import yfinance as yf
 import pandas as pd
 import os
