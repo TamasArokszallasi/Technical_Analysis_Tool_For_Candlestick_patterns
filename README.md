@@ -1,4 +1,8 @@
-# HUFEUR_TA
+# HUFEUR_TA 
+Project deatails:
+Started: 2024.06.10
+Current status: In Progress
+Expected finishing date: 2024.07.31
 
 The aim of this project is to create a code which can do Trend Analysis on various FX Rate pairs by focusing on the **weekly** japanese candlestick patterns and in general, the price movements of a pair. 
 The sole purpose of this is to provide a differentiation for my VAR analysis on the same dependent variable which is the HUF/EUR.
