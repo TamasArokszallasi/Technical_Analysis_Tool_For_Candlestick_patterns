@@ -1,0 +1,10 @@
+#This will be the note for myself about what i did in a day.
+
+
+------------------
+2024.06.19.
+- Find a proper website which i can use for data collection, created the code for that. That is the Stooq.com, pretty amazing that it is free and how easy to acces it's data. I was struggling with a lot of website to gain API.. 
+the problem was that i do not only want a website with the historical dataset, but i also wanted to see proper candlestick charts to test my pattern/indicator recognition tool.
+- I am on my way to finalize the hammer, inverse hammer, hanging man and shooting star finding and it's validity check code. I think i am currently  around 50%, pretty happy with this one :)
+- In the upcoming days i will finalize the code for the above mentioned patterns..  And also will find which other patterns to search for.. Maybe a cup and handle, or head and shoulder? how should i look for them? That will be challenging to write...
+- Also with indicators i want to use the fibonacci main levels to find the upper or lower part of a trend. The goal is simple here i think... I just need to write a code.. Why? Imagine doing all these searches for 10 currencies manually.. Why to do that? Its 2024!:)
