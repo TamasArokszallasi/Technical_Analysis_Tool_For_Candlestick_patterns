@@ -8,3 +8,23 @@ the problem was that i do not only want a website with the historical dataset, b
 - I am on my way to finalize the hammer, inverse hammer, hanging man and shooting star finding and it's validity check code. I think i am currently  around 50%, pretty happy with this one :)
 - In the upcoming days i will finalize the code for the above mentioned patterns..  And also will find which other patterns to search for.. Maybe a cup and handle, or head and shoulder? how should i look for them? That will be challenging to write...
 - Also with indicators i want to use the fibonacci main levels to find the upper or lower part of a trend. The goal is simple here i think... I just need to write a code.. Why? Imagine doing all these searches for 10 currencies manually.. Why to do that? Its 2024!:)
+
+---------------
+2024.06.23
+This day was about to solve my issue with the TA_LIB library. It was not pretty easy and straigthforward to install that library, i had to do other modifications and even download a supplement tool to successfully install.
+But i managed to do it, i spent few hours on it.
+
+---------------
+2024.06.24 
+The big day. 
+I have  successfully prepared my final code which does all the thing i need. I could select which pair i want, download it, then analyse all the possible candlestick patterns that available in the Ta-lib (around 60)
+My heart is basically melting by solving this issue, but sice i am making this note a day after it, i know that the code was not perfect in that day.
+
+-------------
+2024.06.25
+I realized that i saved all the candlestick patterns into separate columns, which is not really good in terms of further analytics. So i modified the code to have an output where every candlestick pattern finding is below each other.
+So currently, the code is great. It asks you which pair you want, then you could decide the period ( Daily, weekly, monthly), then the time period you want (here i need some sort of limitation to avoid crashes) and then it also ask
+wether you want to download more pairs, because you could do that too in one run!!! and it puts everything into one excel file. Of course, the raw data is also included in a separate sheet and the analytics in the other sheet..
+well well well. 
+I have downloaded the magical tool of todays data analytics, the PowerBi and started to do the analytics part. so far i think i am done with this project. Maybe further notes will added and will modify the description to make it more clear to anybody elso who may want to read and use it.
+Thank you for reading it and please feel free to contact me if you wish:)
