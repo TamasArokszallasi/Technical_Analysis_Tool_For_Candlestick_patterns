@@ -20,67 +20,67 @@ For this purpose i will use the **Stooq.com** website which is a free and open d
 <br> In **TA-Lib** there are 61 candlestick patterns that can be recognized. At first glance, I plan to find all the 61 patterns in the weekly chart.
 
 **Japanese candlestick patterns:**
-<br> Two Crows 
-<br> Three Black Crows        
-<br> Three Inside Up/Down        
-<br> Three Line Strike       
-<br> Three Outside Up/Down        
-<br> Three Stars In The South        
-<br> Three Advancing White Soldiers        
-<br> Abandoned Baby        
-<br> Advance Block        
-<br> Belt hold       
-<br> Breakaway        
-<br> Closing Marubozu        
-<br> Concealing Baby Swallow        
-<br> Counterattack        
-<br> Dark Cloud Cover        
-<br> Doji        
-<br> Doji Star        
-<br> Dragonfly Doji        
-<br> Engulfing Pattern        
-<br> Evening Doji Star        
-<br> Evening Star        
-<br> Up/Down gap side by side white lines     
-<br> Gravestone Doji        
-<br> Hammer        
-<br> Hanging Man        
-<br> Harami Pattern        
-<br> Harami Cross Pattern        
-<br> High Wave Candle       
-<br> Hikkake Pattern        
-<br> Modified Hikkake Pattern        
-<br> Homing Pigeon        
-<br> Identical Three Crows        
-<br> In Neck Pattern       
-<br> Inverted Hammer        
-<br> Kicking        
-<br> Kicking   bull/bear determined by the longer marubozu       
-<br> Ladder Bottom        
-<br> Long Legged Doji        
-<br> Long Line Candle        
-<br> Marubozu        
-<br> Matching Low        
-<br> Mat Hold        
-<br> Morning Doji Star        
-<br> Morning Star        
-<br> On Neck Pattern       
-<br> Piercing Pattern        
-<br> Rickshaw Man        
-<br> Rising/Falling Three Methods        
-<br> Separating Lines        
-<br> Shooting Star        
-<br> Short Line Candle        
-<br> Spinning Top        
-<br> Stalled Pattern        
-<br> Stick Sandwich        
-<br> Takuri (Dragonfly Doji with very long lower shadow)        
-<br> Tasuki Gap        
-<br> Thrusting Pattern        
-<br> Tristar Pattern        
-<br> Unique 3 River        
-<br> Upside Gap Two Crows        
-<br> Upside/Downside Gap Three Methods        
+<br> Two Crows
+<br> Three Black Crows   
+<br> Three Inside Up/Down
+<br> Three Line Strike
+<br> Three Outside Up/Down  
+<br> Three Stars In The South   
+<br> Three Advancing White Soldiers      
+<br> Abandoned Baby
+<br> Advance Block 
+<br> Belt hold
+<br> Breakaway
+<br> Closing Marubozu     
+<br> Concealing Baby Swallow 
+<br> Counterattack
+<br> Dark Cloud Cover  
+<br> Doji
+<br> Doji Star
+<br> Dragonfly Doji   
+<br> Engulfing Pattern   
+<br> Evening Doji Star
+<br> Evening Star
+<br> Up/Down gap side by side white lines
+<br> Gravestone Doji  
+<br> Hammer
+<br> Hanging Man
+<br> Harami Pattern
+<br> Harami Cross Pattern 
+<br> High Wave Candle
+<br> Hikkake Pattern
+<br> Modified Hikkake Pattern    
+<br> Homing Pigeon
+<br> Identical Three Crows
+<br> In Neck Pattern
+<br> Inverted Hammer
+<br> Kicking
+<br> Kicking   bull/bear determined by the longer marubozu 
+<br> Ladder Bottom
+<br> Long Legged Doji
+<br> Long Line Candle
+<br> Marubozu
+<br> Matching Low
+<br> Mat Hold
+<br> Morning Doji Star
+<br> Morning Star
+<br> On Neck Pattern
+<br> Piercing Pattern
+<br> Rickshaw Man
+<br> Rising/Falling Three Methods
+<br> Separating Lines
+<br> Shooting Star
+<br> Short Line Candle
+<br> Spinning Top
+<br> Stalled Pattern
+<br> Stick Sandwich
+<br> Takuri (Dragonfly Doji with very long lower shadow)
+<br> Tasuki Gap
+<br> Thrusting Pattern
+<br> Tristar Pattern
+<br> Unique 3 River
+<br> Upside Gap Two Crows
+<br> Upside/Downside Gap Three Methods
 
 As a plus if needed and have time, I can extend the analytics with **indicators:**
 <br>**Moving Averages (SMA, EMA):** Identify trends and potential reversal points.
