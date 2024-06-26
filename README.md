@@ -100,12 +100,12 @@ So I have to go through the chart with the weekly candles and identify when does
 
 We need to use some pre-built libraries for this progress to make it easier to find patterns and indicator signs.
 The followign libraries are needed:
-**-Pandas**
-**-Pandas_ta**
-**-TA-lib**
-**-MPLfinance**
-**-ExcelWriter**
-**-StringIO**
+<br> **-Pandas**
+<br> **-Pandas_ta**
+<br> **-TA-lib**
+<br> **-MPLfinance**
+<br> **-ExcelWriter**
+<br> **-StringIO**
 
 
 **4) How i imagine the code should go (note for myself)**
