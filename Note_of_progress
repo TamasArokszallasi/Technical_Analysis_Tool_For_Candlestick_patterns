@@ -28,3 +28,12 @@ wether you want to download more pairs, because you could do that too in one run
 well well well. 
 I have downloaded the magical tool of todays data analytics, the PowerBi and started to do the analytics part. so far i think i am done with this project. Maybe further notes will added and will modify the description to make it more clear to anybody elso who may want to read and use it.
 Thank you for reading it and please feel free to contact me if you wish:)
+
+------------
+2024.06.26
+
+Ehh, i faced some issue. I realized that there are candlesticks which is relating to more than one or two pattern, which is obviously possible, but very rare.
+The problem was that the Talib have for example Marubozu signal, however it does not distinguish between bullish and bearish signals. 
+So as you may saw, i wrote the code in a way to separate those candlesticks where both possible into two single pattern. But i forgot to 
+add the fact that for example a Marubozu Bullish candlestick can only be recognized if the opening price is lower than the closing.... 
+This is what im doing todayy
