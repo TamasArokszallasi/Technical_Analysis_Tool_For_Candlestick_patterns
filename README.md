@@ -29,20 +29,70 @@ Fibonacci Retracement must have to be calculated manually :( I think i will crea
 
 **Japanese candlestick patterns:**
 Here also we can use the Pandas_ta or Ta-lib
-<br>**Doji** : Indicates indecision in the market. The opening and closing prices are virtually equal.
-<br>**Hammer:** Bullish reversal pattern that occurs at the bottom of a downtrend.
-<br>**Hanging Man:** Bearish reversal pattern that occurs at the top of an uptrend.
-<br>**Bullish Engulfing:** A small red candle followed by a larger green candle that engulfs the previous candle.
-<br>**Bearish Engulfing:** A small green candle followed by a larger red candle that engulfs the previous candle.
-<br>**Morning Star:** A three-candle pattern indicating a bullish reversal.
-<br>**Evening Star:** A three-candle pattern indicating a bearish reversal.
+<br>** Two Crows **
+<br>** Three Black Crows**
+<br>** Three Inside Up/Down**
+<br>** Three Line Strike       **
+<br>** Three Outside Up/Down        **
+<br>** Three Stars In The South        **
+<br>** Three Advancing White Soldiers        **
+<br>** Abandoned Baby        **
+<br>** Advance Block        **
+<br>** Belt hold       **
+<br>** Breakaway        **
+<br>** Closing Marubozu        **
+<br>** Concealing Baby Swallow        **
+<br>** Counterattack        **
+<br>** Dark Cloud Cover        **
+<br>** Doji        **
+<br>** Doji Star        **
+<br>** Dragonfly Doji        **
+<br>** Engulfing Pattern        **
+<br>** Evening Doji Star        **
+<br>** Evening Star        **
+<br>** Up/Down gap side by side white lines     **
+<br>** Gravestone Doji        **
+<br>** Hammer        **
+<br>** Hanging Man        **
+<br>** Harami Pattern        **
+<br>** Harami Cross Pattern        **
+<br>** High Wave Candle       **
+<br>** Hikkake Pattern        **
+<br>** Modified Hikkake Pattern        **
+<br>** Homing Pigeon        **
+<br>** Identical Three Crows        **
+<br>** In Neck Pattern       **
+<br>** Inverted Hammer        **
+<br>** Kicking        **
+<br>** Kicking   bull/bear determined by the longer marubozu       **
+<br>** Ladder Bottom        **
+<br>** Long Legged Doji        **
+<br>** Long Line Candle        **
+<br>** Marubozu        **
+<br>** Matching Low        **
+<br>** Mat Hold        **
+<br>** Morning Doji Star        **
+<br>** Morning Star        **
+<br>** On Neck Pattern       **
+<br>** Piercing Pattern        **
+<br>** Rickshaw Man        **
+<br>** Rising/Falling Three Methods        **
+<br>** Separating Lines        **
+<br>** Shooting Star        **
+<br>** Short Line Candle        **
+<br>** Spinning Top        **
+<br>** Stalled Pattern        **
+<br>** Stick Sandwich        **
+<br>** Takuri (Dragonfly Doji with very long lower shadow)        **
+<br>** Tasuki Gap        **
+<br>** Thrusting Pattern        **
+<br>** Tristar Pattern        **
+<br>** Unique 3 River        **
+<br>** Upside Gap Two Crows        **
+<br>** Upside/Downside Gap Three Methods        **
 
 
-The situation getting complex here: pattern-recognition-api
-<br>**Head and Shoulders Top:** A bearish reversal pattern.
-<br>**Head and Shoulders Bottom (Inverse):** A bullish reversal pattern.
-<br>**Double Top:** A bearish reversal pattern that forms after an uptrend.
-<br>**Double Bottom:** A bullish reversal pattern that forms after a downtrend.
+
 
 **3) METHODOLOGY**
 
