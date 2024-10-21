@@ -1,125 +1,45 @@
-# Technical_Analysis_Tool_For_Candlestick_patterns
-**<br> Project deatails:
-<br> Started: 2024.06.10.
-<br> Current status: Finished
-<br> Expected finishing date: 2024.07.31.
-<br> Finished date: 2024.06.25.**
+# Technical Analysis Tool for Candlestick Patterns
 
-The aim of this project is to create a code which can do Trend Analysis on various FX Rate pairs by focusing on the **weekly** japanese candlestick patterns. 
-The sole purpose of this is to provide a differentiation for my VAR analysis on the same dependent variable which is the HUF/EUR.
+## Project Description
 
-What we need before start coding?
+**Project Overview:**
+This project is a technical analysis tool that automates the identification of Japanese candlestick patterns and analyzes foreign exchange rate pairs. It allows users to collect data for various currency pairs over specific time periods, detect candlestick patterns, and assess their outcomes. The analysis helps to predict potential market movements, thereby aiding trading and investment decisions.
 
-**1) DATA COLLECTION**
-<br> Database of FX Rates in weekly time period from 2006.01.01 until 2023.06.31
-**The following pairs are needed : <br>HUF/USD	<br>CZK/USD	<br>PLN/USD	<br>DKK/USD	<br>SEK/USD	<br>CHF/USD	<br>EUR/USD**  . 
-<br>These are the currencies of EU member states that are of course not within the Eurozone.
-For this purpose i will use the **Stooq.com** website which is a free and open data source website. My plan is to write a python code to scrape the data from the website directly and save it to an excel file.
-  
-**2) DECIDING ANALYTICAL METHODS;    PATTERNS**
-<br> In **TA-Lib** there are 61 candlestick patterns that can be recognized. At first glance, I plan to find all the 61 patterns in the weekly chart.
+## Key Features
+- **Data Collection:** The project uses Stooq.com as a data source, scraping historical foreign exchange rate data for specific currency pairs.
+- **Pattern Analysis:** Uses TA-Lib, a Python library for technical analysis, to identify and assess the presence of 20 major Japanese candlestick patterns.
+- **Outcome Evaluation:** For each detected pattern, it checks if the expected market movement occurred within the next five periods (days/weeks), providing an evaluation of the pattern's reliability.
+- **Customizable Inputs:** Users can specify the currency pairs, observation periods, and date ranges for a tailored analysis.
+- **Excel Output:** The analyzed data, along with the raw data, is saved into an Excel file, which can be used for further analysis using tools like Power BI or Excel.
 
-**Japanese candlestick patterns:**
-**<br> Two Crows
-<br> Three Black Crows
-<br> Three Inside Up/Down
-<br> Three Line Strike
-<br> Three Outside Up/Down
-<br> Three Stars In The South
-<br> Three Advancing White Soldiers
-<br> Abandoned Baby
-<br> Advance Block
-<br> Belt hold
-<br> Breakaway
-<br> Closing Marubozu
-<br> Concealing Baby Swallow
-<br> Counterattack
-<br> Dark Cloud Cover
-<br> Doji
-<br> Doji Star
-<br> Dragonfly Doji 
-<br> Engulfing Pattern
-<br> Evening Doji Star
-<br> Evening Star
-<br> Up/Down gap side by side white lines
-<br> Gravestone Doji
-<br> Hammer
-<br> Hanging Man
-<br> Harami Pattern
-<br> Harami Cross Pattern
-<br> High Wave Candle
-<br> Hikkake Pattern
-<br> Modified Hikkake Pattern
-<br> Homing Pigeon
-<br> Identical Three Crows
-<br> In Neck Pattern
-<br> Inverted Hammer
-<br> Kicking
-<br> Kicking   bull/bear determined by the longer marubozu
-<br> Ladder Bottom
-<br> Long Legged Doji
-<br> Long Line Candle
-<br> Marubozu
-<br> Matching Low
-<br> Mat Hold
-<br> Morning Doji Star
-<br> Morning Star
-<br> On Neck Pattern
-<br> Piercing Pattern
-<br> Rickshaw Man
-<br> Rising/Falling Three Methods
-<br> Separating Lines
-<br> Shooting Star
-<br> Short Line Candle
-<br> Spinning Top
-<br> Stalled Pattern
-<br> Stick Sandwich
-<br> Takuri (Dragonfly Doji with very long lower shadow)
-<br> Tasuki Gap
-<br> Thrusting Pattern
-<br> Tristar Pattern
-<br> Unique 3 River
-<br> Upside Gap Two Crows
-<br> Upside/Downside Gap Three Methods**
+## Benefits of This Tool
+This tool helps traders and analysts by automating a significant part of the technical analysis process, specifically for candlestick patterns. Key benefits include:
+- **Efficiency:** The tool automates data collection, pattern detection, and outcome assessment, saving users significant time compared to manual analysis.
+- **Accuracy:** Using TA-Lib ensures that the pattern detection is based on industry-standard algorithms, reducing the chances of human error in interpretation.
+- **Custom Analysis:** Users can adapt the tool to their specific needs by selecting the desired currency pairs, timeframes, and candlestick patterns for analysis.
+- **Data Visualization Ready:** The output is formatted into Excel files, making it easy for users to visualize or further analyze the results in tools like Power BI or Excel.
 
-As a plus if needed and have time, I can extend the analytics with **indicators:**
-<br>**Moving Averages (SMA, EMA):** Identify trends and potential reversal points.
-<br>**MACD:** Signal changes in the strength, direction, momentum, and duration of a trend.
-<br>**RSI:** Identify overbought or oversold conditions.
-<br>**Bollinger Bands:** Show volatility and potential reversal points.
-<br>**ATR:** Measure volatility.
-<br>**OBV:** Use volume to predict price changes.
+## How It Works
+The tool is composed of several key components:
+1. **Data Collection:** The tool requests data from Stooq.com for user-specified currency pairs and date ranges, scrapes the historical data, and saves it into a DataFrame.
+2. **Pattern Detection:** Using TA-Lib, the tool identifies key Japanese candlestick patterns like Hammer, Shooting Star, Bullish/Bearish Engulfing, and many others. For each pattern, it checks whether the expected outcome (bullish or bearish) occurs within five subsequent periods.
+3. **Analysis:** The detected patterns are analyzed to determine if they correctly predicted the market movement, which helps evaluate the accuracy of each pattern under specific market conditions.
+4. **Output Generation:** The final analysis, including the raw data and detected patterns, is saved into an Excel file with multiple sheets for easy consumption and further analysis.
 
-Fibonacci Retracement must have to be calculated manually. I think i will create some sort of reusable code for this one
-<br>**Fibonacci Retracement:** Identify potential support and resistance levels.
+## Project Workflow
+The first target is analyzing the HUF/EUR chart, with the ability to expand to other currency pairs later. The workflow follows these steps:
+1. Obtain inputs: currency pair(s), start date, end date, and period size (daily, weekly, or monthly).
+2. Scrape the data from Stooq.com based on these inputs.
+3. Identify candlestick patterns using TA-Lib for each period.
+4. Check the outcome of each detected pattern within the next five periods.
+5. Save the raw and analyzed data into an Excel file, with distinct sheets for easy access.
 
+## Future Development Options and Use Cases
+There are numerous potential extensions and use cases for this tool:
+- **Extended Pattern and Indicator Analysis:** The analysis could be extended to include additional indicators like MACD, RSI, Moving Averages, and Bollinger Bands for a more comprehensive technical analysis.
+- **Automation for Real-Time Analysis:** The project could be expanded to fetch real-time data, allowing users to get up-to-date analysis and make timely trading decisions.
+- **API Integration:** The tool could be enhanced to integrate with various broker APIs, allowing for automated trading signals based on pattern detections.
+- **Public Release:** The final tool could be published for research communities, supporting further analysis and the sharing of economic insights and technical analysis strategies.
 
-**3) METHODOLOGY**
-
-So I have to go through the chart with the weekly candles and identify when does these patterns occour and create a different alert for all occurence. Basically, each pattern if appear, by theory it should predict the price movement of the observed ticker.  Technical analysis is good for past analytics and also for forecasting, but in economist way of thinking it is out of question utterly useless to predict only by price.
-
-We need to use some pre-built libraries for this progress to make it easier to find patterns and indicator signs.
-The followign libraries are needed:
-<br> **-Pandas**
-<br> **-Pandas_ta**
-<br> **-TA-lib**
-<br> **-MPLfinance**
-<br> **-ExcelWriter**
-<br> **-StringIO**
-
-
-**4) How i imagine the code should go (note for myself)**
-So the first target will be the HUF/EUR chart, not to complicate with other at first glance. I imagine the following:
-We create a table where there are 3 column. The first column will contain the name of the pattern, the second column will show the type of the signal wether it is bullish or bearish. The third column should show the number of predicted movements became true or false (with the true section there will be a filter, which checks the first 5 candlestick after a pattern occour and checks if it occour on any day and highlight it on which day it occour. Of course, a fourth column to singla on which date are we.
-
-It is important to have only these 4 column, no more, because it will makes it easier for further analytics in PowerBi or Excel.
-
-I want something like this as a output and as a unique table from which i will do the further elaboration:
-
-| Candlestick_name          | signal_type        | Signal_outcome                | Date     |
-| ------------- | ------------- | -------------       | ------------- |
-| HAMMER     | Bullish       |         True      | 2022.01.02    |
-| Bollinger Bands       | Bearish       |  False    | 2017.01.02    |
-
-
-I also would like to create a closeness variable but with considering the candlesticks and volume also, not the fx rate on its own.
+## Conclusion
+This project provides a robust foundation for performing technical analysis on foreign exchange rate pairs through automated candlestick pattern recognition and evaluation. By providing detailed, customizable, and automated analysis, this tool can significantly enhance the efficiency and accuracy of technical analysis for traders, researchers, and analysts. The outputs are structured in a way that facilitates further investigation, making it suitable for integration with business intelligence tools.
