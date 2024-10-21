@@ -1,0 +1,38 @@
+I have runned the application with the following setup:
+-Dataset between 2000.01.01 and 2024.08.31
+-Weekly periodic data
+-All European countrys currency agains the Euro. Namely:
+HUFEUR
+CZKEUR
+PLNEUR
+RONEUR
+BGNEUR
+HRKEUR
+SEKEUR
+DKKEUR
+NOKEUR
+CHFEUR
+GBPEUR
+RUBEUR
+TRYEUR
+ISKEUR
+
+Then i recieved an excel file with two sheets and all the datasets are automatically filled in.
+1) All_Raw_Data:
+This includes 6 columns:
+Date|Open|High|Low|Close|Pair 
+
+The first column shows the datet, the next four are the open, highest, lowest and closing price of that specific pair. The last column represents the fxrate pair.
+
+
+2) All_Analysed_Data
+This includes 5 columns:
+Date|Pair|Pattern|Signal|Outcome
+-Date: shows the date when a pattern appeared.
+-Pair: This represents the pair we are working with.
+-Pattern: The cells in this column contains the name of the pattern which appeared on that date.
+-Signal: These cells shows if the pattern supposed to be Bullish or Bearish indication.
+-Outcome: This is the testing part of the validity of a pattern appearance. The pattern outcome can be True on day 1, 2, 3, 4,5 or false. 
+
+At this point, comes the power of PowerBI.
+
